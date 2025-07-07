@@ -130,7 +130,7 @@ const Room = () => {
         }}>
             <Box>
                 <Typography variant = 'h6' component = 'span' >
-                    {'Room price:' + ` `}
+                    {' Price:' + ` `}
                 </Typography>
                 <Typography  component='span'>
                     {room?.price === 0 ? 'Free Stay' : 'N' + room?. price}
